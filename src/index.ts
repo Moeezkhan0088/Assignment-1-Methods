@@ -144,3 +144,11 @@ console.log(isNaN(numInt3));
 
 // ------------parse float ------------------------
 
+let str6 : string = "123.45abc";
+
+let numFloat2 : number = parseFloat(str6);
+
+console.log(numFloat2);
+
+
+

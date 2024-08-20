@@ -115,4 +115,32 @@ let bool2 : boolean = true;
 console.log(typeof(bool2));
 
 
+// -----------parseint() ----------------
+
+
+let str3 : string = "123abc";
+
+let numInt : number = parseInt(str3);
+
+console.log(numInt);
+
+
+
+
+let str4: string ="123";
+
+let numInt2 : number = parseInt(str4);
+
+console.log(numInt2);
+
+
+
+let str5 : string = "123abc";
+let numInt3: number = parseInt(str5);
+
+console.log(isNaN(numInt3)); 
+
+
+
+// ------------parse float ------------------------
 

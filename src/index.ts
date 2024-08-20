@@ -75,5 +75,44 @@ console.log(typeof(value));
 
 
 
+//----------Converting variables to numbers -------------------------------- 
+
+let str1: String = "123";
+let  numb:number= Number(str1);
+
+console.log(numb);
+
+
+//  ---------------isNaN---------------------------
+
+let str2: string = "hello";
+let numb1: number = Number(str2);
+
+if(isNaN(numb1)){
+    console.log("Not a number");
+}else{
+    console.log("Is a number");
+}
+
+// --------------strFLoat -----------------
+
+
+let strFloat : string = "123.456";
+let numfloat : number = Number(strFloat);
+
+console.log(numfloat);
+
+
+// -------boolean ----------------
+
+let bool : boolean = false;
+
+console.log(typeof(bool));
+
+
+let bool2 : boolean = true;
+
+console.log(typeof(bool2));
+
 
 

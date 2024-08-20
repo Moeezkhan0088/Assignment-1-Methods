@@ -152,3 +152,29 @@ console.log(numFloat2);
 
 
 
+
+
+
+// -------------String Methods ------------------------------   ----------------------------------------------------------------
+
+let str10 : string = "Hello, world!";
+
+console.log(str10.charAt(0));
+console.log(str10.charAt(8));
+
+
+console.log(str10.charCodeAt(0));
+console.log(str10.charCodeAt(8));
+
+let str11 : string = "Moeez";
+
+let results :string = str10.concat(" " + " My Name is " + str11 );
+
+console.log(results);
+
+
+
+
+
+
+

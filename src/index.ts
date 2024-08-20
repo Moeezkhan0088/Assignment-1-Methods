@@ -173,8 +173,30 @@ let results :string = str10.concat(" " + " My Name is " + str11 );
 console.log(results);
 
 
+console.log(results.includes("world"))
+console.log(results.includes("world",7))
+
+
+console.log(str10.indexOf("world"));
+console.log(str10.indexOf("world",8));
+
+console.log(str10.lastIndexOf("world"));
+
+console.log(str10.startsWith("world"));
+console.log(str10.startsWith("Hello"));
+
+
+// console.log(str10,endswith("world"));         issue occur
 
 
 
+
+console.log(str10.repeat(10));
+console.log(str10.replace("world", "Hamza"));
+
+
+let str12: string = "hello Moeez, Hello hamza";
+
+console.log(str12.replace("hello", "Hi"));                      //   #issue occur hear 
 
 

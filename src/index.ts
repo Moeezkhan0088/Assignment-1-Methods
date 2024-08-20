@@ -200,3 +200,24 @@ let str12: string = "hello Moeez, Hello hamza";
 console.log(str12.replace("hello", "Hi"));                      //   #issue occur hear 
 
 
+let str13:string = "Hello moeez";
+
+console.log(str13.split(" ",2));
+console.log(str13.split(""));
+
+
+
+console.log(str13.slice(6));
+console.log(str13.slice(0,5));
+
+
+
+console.log(str13.substring(6));
+console.log(str13.substring(0,7));
+
+
+
+console.log(str13.toUpperCase());
+
+
+console.log(str13.toLowerCase());

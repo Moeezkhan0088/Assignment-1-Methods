@@ -221,3 +221,45 @@ console.log(str13.toUpperCase());
 
 
 console.log(str13.toLowerCase());
+
+
+
+// --------------Array Methods----------------------------
+
+let a : string[] = ["1","2","3"]
+  a.push("4");
+console.log(a);
+  a.push("4","5");
+console.log(a);
+
+
+a.pop();
+console.log(a);
+
+
+
+a.shift();
+console.log(a);
+
+
+a.unshift("1");
+console.log(a);
+
+
+
+let b : (string|number)[] = ["1", "2", "3", "4", "5", 6];
+let c : string[]=["20"];
+
+let result = b.concat(c);
+console.log(result);
+
+
+
+ let remove = result.slice(1,5);
+console.log(remove);
+
+
+
+
+
+

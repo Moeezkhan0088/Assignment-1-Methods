@@ -387,7 +387,7 @@ function factorial(n: number): number {
     return n * factorial(n - 1);
 }
 
-// Prompt user for input
+
 const input = readlineSync.question('Enter a number to compute its factorial: ');
 const num10 = parseInt(input, 10);
 
@@ -488,7 +488,7 @@ function promptForUserInput(): User {
   return user;
 }
 
-// Get user input and handle errors
+
 try {
   const user = promptForUserInput();
   console.log('User object created:', user);

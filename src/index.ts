@@ -450,7 +450,7 @@ if (isNaN(startDate.getTime()) || isNaN(endDate.getTime()) || isNaN(dailyRate)) 
 
 
 
-interface User {
+type User = {
   name: string;
   age: number;
   email?: string;  

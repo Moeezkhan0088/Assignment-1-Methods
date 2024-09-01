@@ -499,3 +499,98 @@ try {
       console.error('An unexpected error occurred.');
   }
 }
+
+
+
+
+
+//----------------- assignments of objects with inheritance and interfaces---------
+
+
+
+interface Animal {
+  name: string;
+  age: number;
+  isWild: boolean;
+}
+
+
+interface Bird extends Animal {
+  canFly: boolean;
+  wingSpan: number; 
+}
+
+
+interface Human extends Animal {
+  occupation: string;
+  hasDrivingLicense: boolean;
+}
+
+
+
+
+const lion: Animal = {
+  name: "Lion",
+  age: 8,
+  isWild: true,
+};
+
+
+const eagle: Bird = {
+  name: "Eagle",
+  age: 5,
+  isWild: true,
+  canFly: true,
+  wingSpan: 220, 
+};
+
+
+const johnDoe: Human = {
+  name: "Moeez",
+  age: 30,
+  isWild: false,
+  occupation: "Engineer",
+  hasDrivingLicense: true,
+};
+
+
+
+
+interface Car {
+  brand: string;
+  model: string;
+  year: number;
+  isElectric: boolean;
+}
+
+
+interface Computer {
+  brand: string;
+  processor: string;
+  ramSize: number; 
+  isGaming: boolean;
+}
+
+
+
+const tesla: Car = {
+  brand: "Tesla",
+  model: "Model S",
+  year: 2022,
+  isElectric: true,
+};
+
+
+const gamingPC: Computer = {
+  brand: "Alienware",
+  processor: "Intel Core i9",
+  ramSize: 32, 
+  isGaming: true,
+};
+
+
+console.log("Animal (Lion):", lion);
+console.log("Bird (Eagle):", eagle);
+console.log("Human (John Doe):", johnDoe);
+console.log("Car (Tesla):", tesla);
+console.log("Computer (Gaming PC):", gamingPC);

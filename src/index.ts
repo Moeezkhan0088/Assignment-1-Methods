@@ -545,7 +545,7 @@ const eagle: Bird = {
 };
 
 
-const johnDoe: Human = {
+const moeez: Human = {
   name: "Moeez",
   age: 30,
   isWild: false,
@@ -591,6 +591,6 @@ const gamingPC: Computer = {
 
 console.log("Animal (Lion):", lion);
 console.log("Bird (Eagle):", eagle);
-console.log("Human (John Doe):", johnDoe);
+console.log("Human (Moeez):", moeez);
 console.log("Car (Tesla):", tesla);
 console.log("Computer (Gaming PC):", gamingPC);
